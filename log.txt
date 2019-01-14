@@ -1,0 +1,84 @@
+2019-01-09 14:06:52: I::[_internal.py:_log: 88]: * Running on http://0.0.0.0:20002/ (Press CTRL+C to quit)
+2019-01-09 14:06:53: I::[annotation_server.py:mask_question: 23]:{'mask_question': ['缴费方式查询'], 'dic': {'代扣': 'n'}}
+2019-01-09 14:06:53: D::[__init__.py:initialize:111]:Building prefix dict from the default dictionary ...
+2019-01-09 14:06:53: D::[__init__.py:initialize:131]:Loading model from cache /tmp/jieba.cache
+2019-01-09 14:06:54: D::[__init__.py:initialize:163]:Loading model cost 1.202 seconds.
+2019-01-09 14:06:54: D::[__init__.py:initialize:164]:Prefix dict has been built succesfully.
+2019-01-09 14:06:54: I::[_internal.py:_log: 88]:127.0.0.1 - - [09/Jan/2019 14:06:54] "[37mPOST /predict HTTP/1.1[0m" 200 -
+2019-01-09 14:08:50: I::[_internal.py:_log: 88]: * Running on http://0.0.0.0:20002/ (Press CTRL+C to quit)
+2019-01-09 14:09:06: I::[annotation_server.py:mask_question: 23]:{'mask_question': ['缴费方式查询'], 'dic': {'代扣': 'n'}}
+2019-01-09 14:09:06: D::[__init__.py:initialize:111]:Building prefix dict from the default dictionary ...
+2019-01-09 14:09:06: D::[__init__.py:initialize:131]:Loading model from cache /tmp/jieba.cache
+2019-01-09 14:09:08: D::[__init__.py:initialize:163]:Loading model cost 1.144 seconds.
+2019-01-09 14:09:08: D::[__init__.py:initialize:164]:Prefix dict has been built succesfully.
+2019-01-09 14:09:08: I::[_internal.py:_log: 88]:127.0.0.1 - - [09/Jan/2019 14:09:08] "[37mPOST /predict HTTP/1.1[0m" 200 -
+2019-01-09 14:12:02: I::[annotation_server.py:mask_question: 23]:{'mask_question': ['缴费方式查询'], 'dic': {'代扣': 'n'}}
+2019-01-09 14:12:03: I::[_internal.py:_log: 88]:127.0.0.1 - - [09/Jan/2019 14:12:03] "[37mPOST /predict HTTP/1.1[0m" 200 -
+2019-01-09 14:12:03: I::[annotation_server.py:mask_question: 23]:{'mask_question': ['缴费方式查询'], 'dic': {'代扣': 'n'}}
+2019-01-09 14:12:04: I::[_internal.py:_log: 88]:127.0.0.1 - - [09/Jan/2019 14:12:04] "[37mPOST /predict HTTP/1.1[0m" 200 -
+2019-01-09 14:12:04: I::[annotation_server.py:mask_question: 23]:{'mask_question': ['缴费方式查询'], 'dic': {'代扣': 'n'}}
+2019-01-09 14:12:04: I::[_internal.py:_log: 88]:127.0.0.1 - - [09/Jan/2019 14:12:04] "[37mPOST /predict HTTP/1.1[0m" 200 -
+2019-01-09 14:12:04: I::[annotation_server.py:mask_question: 23]:{'mask_question': ['缴费方式查询'], 'dic': {'代扣': 'n'}}
+2019-01-09 14:12:05: I::[_internal.py:_log: 88]:127.0.0.1 - - [09/Jan/2019 14:12:05] "[37mPOST /predict HTTP/1.1[0m" 200 -
+2019-01-09 14:12:05: I::[annotation_server.py:mask_question: 23]:{'mask_question': ['缴费方式查询'], 'dic': {'代扣': 'n'}}
+2019-01-09 14:12:05: I::[_internal.py:_log: 88]:127.0.0.1 - - [09/Jan/2019 14:12:05] "[37mPOST /predict HTTP/1.1[0m" 200 -
+2019-01-09 14:12:05: I::[annotation_server.py:mask_question: 23]:{'mask_question': ['缴费方式查询'], 'dic': {'代扣': 'n'}}
+2019-01-09 14:12:06: I::[_internal.py:_log: 88]:127.0.0.1 - - [09/Jan/2019 14:12:06] "[37mPOST /predict HTTP/1.1[0m" 200 -
+2019-01-09 14:12:06: I::[annotation_server.py:mask_question: 23]:{'mask_question': ['缴费方式查询'], 'dic': {'代扣': 'n'}}
+2019-01-09 14:12:06: I::[_internal.py:_log: 88]:127.0.0.1 - - [09/Jan/2019 14:12:06] "[37mPOST /predict HTTP/1.1[0m" 200 -
+2019-01-09 14:12:07: I::[annotation_server.py:mask_question: 23]:{'mask_question': ['缴费方式查询'], 'dic': {'代扣': 'n'}}
+2019-01-09 14:12:07: I::[_internal.py:_log: 88]:127.0.0.1 - - [09/Jan/2019 14:12:07] "[37mPOST /predict HTTP/1.1[0m" 200 -
+2019-01-09 14:12:07: I::[annotation_server.py:mask_question: 23]:{'mask_question': ['缴费方式查询'], 'dic': {'代扣': 'n'}}
+2019-01-09 14:12:07: I::[_internal.py:_log: 88]:127.0.0.1 - - [09/Jan/2019 14:12:07] "[37mPOST /predict HTTP/1.1[0m" 200 -
+2019-01-09 14:12:07: I::[annotation_server.py:mask_question: 23]:{'mask_question': ['缴费方式查询'], 'dic': {'代扣': 'n'}}
+2019-01-09 14:12:08: I::[_internal.py:_log: 88]:127.0.0.1 - - [09/Jan/2019 14:12:08] "[37mPOST /predict HTTP/1.1[0m" 200 -
+2019-01-09 14:12:08: I::[annotation_server.py:mask_question: 23]:{'mask_question': ['缴费方式查询'], 'dic': {'代扣': 'n'}}
+2019-01-09 14:12:08: I::[_internal.py:_log: 88]:127.0.0.1 - - [09/Jan/2019 14:12:08] "[37mPOST /predict HTTP/1.1[0m" 200 -
+2019-01-09 14:12:08: I::[annotation_server.py:mask_question: 23]:{'mask_question': ['缴费方式查询'], 'dic': {'代扣': 'n'}}
+2019-01-09 14:12:09: I::[_internal.py:_log: 88]:127.0.0.1 - - [09/Jan/2019 14:12:09] "[37mPOST /predict HTTP/1.1[0m" 200 -
+2019-01-09 14:15:50: I::[_internal.py:_log: 88]: * Running on http://0.0.0.0:20002/ (Press CTRL+C to quit)
+2019-01-09 14:15:51: D::[__init__.py:initialize:111]:Building prefix dict from the default dictionary ...
+2019-01-09 14:15:51: D::[__init__.py:initialize:131]:Loading model from cache /tmp/jieba.cache
+2019-01-09 14:15:53: D::[__init__.py:initialize:163]:Loading model cost 1.363 seconds.
+2019-01-09 14:15:53: D::[__init__.py:initialize:164]:Prefix dict has been built succesfully.
+2019-01-09 14:15:53: I::[_internal.py:_log: 88]:127.0.0.1 - - [09/Jan/2019 14:15:53] "[37mPOST /predict HTTP/1.1[0m" 200 -
+2019-01-09 14:27:48: D::[__init__.py:initialize:111]:Building prefix dict from the default dictionary ...
+2019-01-09 14:27:48: D::[__init__.py:initialize:131]:Loading model from cache /tmp/jieba.cache
+2019-01-09 14:27:51: D::[__init__.py:initialize:163]:Loading model cost 2.346 seconds.
+2019-01-09 14:27:51: D::[__init__.py:initialize:164]:Prefix dict has been built succesfully.
+2019-01-09 14:29:43: D::[__init__.py:initialize:111]:Building prefix dict from the default dictionary ...
+2019-01-09 14:29:43: D::[__init__.py:initialize:131]:Loading model from cache /tmp/jieba.cache
+2019-01-09 14:29:45: D::[__init__.py:initialize:163]:Loading model cost 1.536 seconds.
+2019-01-09 14:29:45: D::[__init__.py:initialize:164]:Prefix dict has been built succesfully.
+2019-01-14 09:49:38: W::[annotation_server.py:mask_question: 21]:request failed or request load failed!!!Traceback (most recent call last):
+  File "/root/PycharmProjects/Semantic_annotation_Utry/annotation_server.py", line 19, in mask_question
+    json_data = json.loads(temp_data)
+  File "/root/anaconda3/envs/tensorflow/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/root/anaconda3/envs/tensorflow/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/root/anaconda3/envs/tensorflow/lib/python3.6/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 46 (char 45)
+
+2019-01-14 09:50:59: D::[__init__.py:initialize:111]:Building prefix dict from the default dictionary ...
+2019-01-14 09:50:59: D::[__init__.py:initialize:131]:Loading model from cache /tmp/jieba.cache
+2019-01-14 09:51:01: D::[__init__.py:initialize:163]:Loading model cost 2.230 seconds.
+2019-01-14 09:51:01: D::[__init__.py:initialize:164]:Prefix dict has been built succesfully.
+2019-01-14 09:51:28: D::[__init__.py:initialize:111]:Building prefix dict from the default dictionary ...
+2019-01-14 09:51:28: D::[__init__.py:initialize:131]:Loading model from cache /tmp/jieba.cache
+2019-01-14 09:51:31: D::[__init__.py:initialize:163]:Loading model cost 3.484 seconds.
+2019-01-14 09:51:31: D::[__init__.py:initialize:164]:Prefix dict has been built succesfully.
+2019-01-14 09:51:37: D::[__init__.py:initialize:111]:Building prefix dict from the default dictionary ...
+2019-01-14 09:51:37: D::[__init__.py:initialize:131]:Loading model from cache /tmp/jieba.cache
+2019-01-14 09:51:41: D::[__init__.py:initialize:163]:Loading model cost 3.582 seconds.
+2019-01-14 09:51:41: D::[__init__.py:initialize:164]:Prefix dict has been built succesfully.
+2019-01-14 09:58:55: I::[_internal.py:_log: 88]: * Running on http://0.0.0.0:20002/ (Press CTRL+C to quit)
+2019-01-14 09:59:14: D::[__init__.py:initialize:111]:Building prefix dict from the default dictionary ...
+2019-01-14 09:59:14: D::[__init__.py:initialize:131]:Loading model from cache /tmp/jieba.cache
+2019-01-14 09:59:16: D::[__init__.py:initialize:163]:Loading model cost 1.496 seconds.
+2019-01-14 09:59:16: D::[__init__.py:initialize:164]:Prefix dict has been built succesfully.
+2019-01-14 09:59:16: I::[_internal.py:_log: 88]:192.168.220.151 - - [14/Jan/2019 09:59:16] "[37mPOST /predict HTTP/1.1[0m" 200 -
+2019-01-14 09:59:46: I::[_internal.py:_log: 88]:192.168.220.151 - - [14/Jan/2019 09:59:46] "[37mPOST /predict HTTP/1.1[0m" 200 -
+2019-01-14 09:59:49: I::[_internal.py:_log: 88]:192.168.220.151 - - [14/Jan/2019 09:59:49] "[37mPOST /predict HTTP/1.1[0m" 200 -
+2019-01-14 10:40:25: I::[_internal.py:_log: 88]: * Running on http://0.0.0.0:20002/ (Press CTRL+C to quit)

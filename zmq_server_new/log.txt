@@ -1,0 +1,459 @@
+2019-01-14 11:04:50: I::[server.py:_run: 88]:bind all sockets
+2019-01-14 11:04:50: I::[server.py:_run: 92]:open 8 ventilator-worker sockets
+2019-01-14 11:04:50: I::[server.py:_run: 95]:start the sink
+2019-01-14 11:04:50: I::[server.py:_run:239]:ready
+2019-01-14 11:04:50: I::[server.py:_get_device_map:162]:get devices
+2019-01-14 11:04:50: I::[server.py:_get_device_map:194]:device map: 
+		worker  0 -> cpu
+		worker  1 -> cpu
+2019-01-14 11:04:50: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:04:50: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:04:50: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:04:50: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:04:57: I::[server.py:_run:122]:new config request	req id: 0	client: b'93e759bb-feef-4992-adce-c1e4fc004728'
+2019-01-14 11:04:57: I::[server.py:_run:279]:send config	client b'93e759bb-feef-4992-adce-c1e4fc004728'
+2019-01-14 11:04:57: I::[server.py:_run:138]:new encode request	req id: 1	size: 107	client: b'93e759bb-feef-4992-adce-c1e4fc004728'
+2019-01-14 11:04:57: I::[server.py:_run:276]:job register	size: 107	job id: b'93e759bb-feef-4992-adce-c1e4fc004728#1'
+2019-01-14 11:04:57: D::[__init__.py:initialize:111]:Building prefix dict from the default dictionary ...
+2019-01-14 11:04:57: D::[__init__.py:initialize:131]:Loading model from cache /tmp/jieba.cache
+2019-01-14 11:04:59: D::[__init__.py:initialize:163]:Loading model cost 2.149 seconds.
+2019-01-14 11:04:59: D::[__init__.py:initialize:164]:Prefix dict has been built succesfully.
+2019-01-14 11:04:59: W::[Semantic_annotation_jieba.py:set_sentence: 69]:设置句子属性发生异常set_sentencelist index out of range
+2019-01-14 11:04:59: W::[Semantic_annotation_jieba.py:set_sentence: 70]:(<class 'IndexError'>, IndexError('list index out of range',), <traceback object at 0x7fd72c10c548>)
+2019-01-14 11:04:59: W::[Semantic_annotation_jieba.py:find_ap:375]:确定动作属性发生异常find_ap'NoneType' object has no attribute 'class_word_list'
+2019-01-14 11:04:59: W::[Semantic_annotation_jieba.py:find_ap:376]:(<class 'AttributeError'>, AttributeError("'NoneType' object has no attribute 'class_word_list'",), <traceback object at 0x7fd72c10c548>)
+2019-01-14 11:04:59: W::[Semantic_annotation_jieba.py:semantic_annotation_jieba:105]:语义标注主函数运行发生异常semantic_annotation_jieba'>=' not supported between instances of 'NoneType' and 'int'
+2019-01-14 11:04:59: W::[Semantic_annotation_jieba.py:semantic_annotation_jieba:106]:(<class 'TypeError'>, TypeError("'>=' not supported between instances of 'NoneType' and 'int'",), <traceback object at 0x7fd72c10c548>)
+2019-01-14 11:07:00: I::[server.py:_run: 88]:bind all sockets
+2019-01-14 11:07:00: I::[server.py:_run: 92]:open 8 ventilator-worker sockets
+2019-01-14 11:07:00: I::[server.py:_run: 95]:start the sink
+2019-01-14 11:07:00: I::[server.py:_run:239]:ready
+2019-01-14 11:07:00: I::[server.py:_get_device_map:162]:get devices
+2019-01-14 11:07:00: I::[server.py:_get_device_map:194]:device map: 
+		worker  0 -> cpu
+		worker  1 -> cpu
+2019-01-14 11:07:00: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:07:00: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:07:00: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:07:00: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:07:06: I::[server.py:_run:122]:new config request	req id: 0	client: b'3ba5a81f-af3c-4ba7-9141-6ac2d6b5d7e9'
+2019-01-14 11:07:06: I::[server.py:_run:279]:send config	client b'3ba5a81f-af3c-4ba7-9141-6ac2d6b5d7e9'
+2019-01-14 11:07:06: I::[server.py:_run:138]:new encode request	req id: 1	size: 107	client: b'3ba5a81f-af3c-4ba7-9141-6ac2d6b5d7e9'
+2019-01-14 11:07:06: I::[server.py:_run:276]:job register	size: 107	job id: b'3ba5a81f-af3c-4ba7-9141-6ac2d6b5d7e9#1'
+2019-01-14 11:07:06: D::[__init__.py:initialize:111]:Building prefix dict from the default dictionary ...
+2019-01-14 11:07:06: D::[__init__.py:initialize:131]:Loading model from cache /tmp/jieba.cache
+2019-01-14 11:07:08: D::[__init__.py:initialize:163]:Loading model cost 1.631 seconds.
+2019-01-14 11:07:08: D::[__init__.py:initialize:164]:Prefix dict has been built succesfully.
+2019-01-14 11:07:08: W::[Semantic_annotation_jieba.py:set_sentence: 69]:设置句子属性发生异常set_sentencelist index out of range
+2019-01-14 11:07:08: W::[Semantic_annotation_jieba.py:set_sentence: 70]:(<class 'IndexError'>, IndexError('list index out of range',), <traceback object at 0x7fd97bae4788>)
+2019-01-14 11:07:08: W::[Semantic_annotation_jieba.py:find_ap:375]:确定动作属性发生异常find_ap'NoneType' object has no attribute 'class_word_list'
+2019-01-14 11:07:08: W::[Semantic_annotation_jieba.py:find_ap:376]:(<class 'AttributeError'>, AttributeError("'NoneType' object has no attribute 'class_word_list'",), <traceback object at 0x7fd97bae4788>)
+2019-01-14 11:07:08: W::[Semantic_annotation_jieba.py:semantic_annotation_jieba:105]:语义标注主函数运行发生异常semantic_annotation_jieba'>=' not supported between instances of 'NoneType' and 'int'
+2019-01-14 11:07:08: W::[Semantic_annotation_jieba.py:semantic_annotation_jieba:106]:(<class 'TypeError'>, TypeError("'>=' not supported between instances of 'NoneType' and 'int'",), <traceback object at 0x7fd97bae4788>)
+2019-01-14 11:08:14: I::[server.py:_run: 88]:bind all sockets
+2019-01-14 11:08:14: I::[server.py:_run: 92]:open 8 ventilator-worker sockets
+2019-01-14 11:08:14: I::[server.py:_run: 95]:start the sink
+2019-01-14 11:08:14: I::[server.py:_run:239]:ready
+2019-01-14 11:08:14: I::[server.py:_get_device_map:162]:get devices
+2019-01-14 11:08:14: I::[server.py:_get_device_map:194]:device map: 
+		worker  0 -> cpu
+		worker  1 -> cpu
+2019-01-14 11:08:14: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:08:14: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:08:14: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:08:14: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:08:19: I::[server.py:_run:122]:new config request	req id: 0	client: b'117f6acb-a0c4-4e56-94cf-e1562801ece0'
+2019-01-14 11:08:19: I::[server.py:_run:279]:send config	client b'117f6acb-a0c4-4e56-94cf-e1562801ece0'
+2019-01-14 11:08:19: I::[server.py:_run:138]:new encode request	req id: 1	size: 107	client: b'117f6acb-a0c4-4e56-94cf-e1562801ece0'
+2019-01-14 11:08:19: I::[server.py:_run:276]:job register	size: 107	job id: b'117f6acb-a0c4-4e56-94cf-e1562801ece0#1'
+2019-01-14 11:08:19: D::[__init__.py:initialize:111]:Building prefix dict from the default dictionary ...
+2019-01-14 11:08:19: D::[__init__.py:initialize:131]:Loading model from cache /tmp/jieba.cache
+2019-01-14 11:08:21: D::[__init__.py:initialize:163]:Loading model cost 1.784 seconds.
+2019-01-14 11:08:21: D::[__init__.py:initialize:164]:Prefix dict has been built succesfully.
+2019-01-14 11:08:21: W::[Semantic_annotation_jieba.py:set_sentence: 69]:设置句子属性发生异常set_sentencelist index out of range
+2019-01-14 11:08:21: W::[Semantic_annotation_jieba.py:set_sentence: 70]:(<class 'IndexError'>, IndexError('list index out of range',), <traceback object at 0x7f78a12829c8>)
+2019-01-14 11:08:21: W::[Semantic_annotation_jieba.py:find_ap:375]:确定动作属性发生异常find_ap'NoneType' object has no attribute 'class_word_list'
+2019-01-14 11:08:21: W::[Semantic_annotation_jieba.py:find_ap:376]:(<class 'AttributeError'>, AttributeError("'NoneType' object has no attribute 'class_word_list'",), <traceback object at 0x7f78a12829c8>)
+2019-01-14 11:08:21: W::[Semantic_annotation_jieba.py:semantic_annotation_jieba:105]:语义标注主函数运行发生异常semantic_annotation_jieba'>=' not supported between instances of 'NoneType' and 'int'
+2019-01-14 11:08:21: W::[Semantic_annotation_jieba.py:semantic_annotation_jieba:106]:(<class 'TypeError'>, TypeError("'>=' not supported between instances of 'NoneType' and 'int'",), <traceback object at 0x7f78a12829c8>)
+2019-01-14 11:10:06: I::[server.py:_run: 88]:bind all sockets
+2019-01-14 11:10:06: I::[server.py:_run: 92]:open 8 ventilator-worker sockets
+2019-01-14 11:10:06: I::[server.py:_run: 95]:start the sink
+2019-01-14 11:10:06: I::[server.py:_run:239]:ready
+2019-01-14 11:10:06: I::[server.py:_get_device_map:162]:get devices
+2019-01-14 11:10:06: I::[server.py:_get_device_map:194]:device map: 
+		worker  0 -> cpu
+		worker  1 -> cpu
+2019-01-14 11:10:06: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:10:06: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:10:06: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:10:06: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:10:15: I::[server.py:_run:122]:new config request	req id: 0	client: b'fcafa2b4-2894-4f5f-9f58-1a92dc425695'
+2019-01-14 11:10:15: I::[server.py:_run:279]:send config	client b'fcafa2b4-2894-4f5f-9f58-1a92dc425695'
+2019-01-14 11:10:15: I::[server.py:_run:138]:new encode request	req id: 1	size: 107	client: b'fcafa2b4-2894-4f5f-9f58-1a92dc425695'
+2019-01-14 11:10:15: I::[server.py:_run:276]:job register	size: 107	job id: b'fcafa2b4-2894-4f5f-9f58-1a92dc425695#1'
+2019-01-14 11:10:15: D::[__init__.py:initialize:111]:Building prefix dict from the default dictionary ...
+2019-01-14 11:10:15: D::[__init__.py:initialize:131]:Loading model from cache /tmp/jieba.cache
+2019-01-14 11:10:16: D::[__init__.py:initialize:163]:Loading model cost 1.358 seconds.
+2019-01-14 11:10:16: D::[__init__.py:initialize:164]:Prefix dict has been built succesfully.
+2019-01-14 11:10:16: W::[Semantic_annotation_jieba.py:set_sentence: 69]:设置句子属性发生异常set_sentencelist index out of range
+2019-01-14 11:10:16: W::[Semantic_annotation_jieba.py:set_sentence: 70]:(<class 'IndexError'>, IndexError('list index out of range',), <traceback object at 0x7f886ffa4c88>)
+2019-01-14 11:10:16: W::[Semantic_annotation_jieba.py:find_ap:377]:确定动作属性发生异常find_ap'NoneType' object has no attribute 'class_word_list'
+2019-01-14 11:10:16: W::[Semantic_annotation_jieba.py:find_ap:378]:(<class 'AttributeError'>, AttributeError("'NoneType' object has no attribute 'class_word_list'",), <traceback object at 0x7f886ffa4c88>)
+2019-01-14 11:10:16: W::[Semantic_annotation_jieba.py:semantic_annotation_jieba:107]:语义标注主函数运行发生异常semantic_annotation_jieba'>=' not supported between instances of 'NoneType' and 'int'
+2019-01-14 11:10:16: W::[Semantic_annotation_jieba.py:semantic_annotation_jieba:108]:(<class 'TypeError'>, TypeError("'>=' not supported between instances of 'NoneType' and 'int'",), <traceback object at 0x7f886ffa4c88>)
+2019-01-14 11:12:23: I::[server.py:_run: 88]:bind all sockets
+2019-01-14 11:12:23: I::[server.py:_run: 92]:open 8 ventilator-worker sockets
+2019-01-14 11:12:23: I::[server.py:_run: 95]:start the sink
+2019-01-14 11:12:23: I::[server.py:_get_device_map:162]:get devices
+2019-01-14 11:12:23: I::[server.py:_run:239]:ready
+2019-01-14 11:12:23: I::[server.py:_get_device_map:194]:device map: 
+		worker  0 -> cpu
+		worker  1 -> cpu
+2019-01-14 11:12:23: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:12:23: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:12:23: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:12:23: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:12:33: I::[server.py:_run:122]:new config request	req id: 0	client: b'8a0714f6-9725-4a19-a8fa-b7ca962fec98'
+2019-01-14 11:12:34: I::[server.py:_run:279]:send config	client b'8a0714f6-9725-4a19-a8fa-b7ca962fec98'
+2019-01-14 11:12:34: I::[server.py:_run:138]:new encode request	req id: 1	size: 107	client: b'8a0714f6-9725-4a19-a8fa-b7ca962fec98'
+2019-01-14 11:12:34: I::[server.py:_run:276]:job register	size: 107	job id: b'8a0714f6-9725-4a19-a8fa-b7ca962fec98#1'
+2019-01-14 11:12:34: D::[__init__.py:initialize:111]:Building prefix dict from the default dictionary ...
+2019-01-14 11:12:34: D::[__init__.py:initialize:131]:Loading model from cache /tmp/jieba.cache
+2019-01-14 11:12:35: D::[__init__.py:initialize:163]:Loading model cost 1.165 seconds.
+2019-01-14 11:12:35: D::[__init__.py:initialize:164]:Prefix dict has been built succesfully.
+2019-01-14 11:12:35: W::[Semantic_annotation_jieba.py:set_sentence: 72]:设置句子属性发生异常set_sentencelist index out of range
+2019-01-14 11:12:35: W::[Semantic_annotation_jieba.py:set_sentence: 73]:(<class 'IndexError'>, IndexError('list index out of range',), <traceback object at 0x7f5cb89c4508>)
+2019-01-14 11:12:35: W::[Semantic_annotation_jieba.py:find_ap:380]:确定动作属性发生异常find_ap'NoneType' object has no attribute 'class_word_list'
+2019-01-14 11:12:35: W::[Semantic_annotation_jieba.py:find_ap:381]:(<class 'AttributeError'>, AttributeError("'NoneType' object has no attribute 'class_word_list'",), <traceback object at 0x7f5cb89c4508>)
+2019-01-14 11:12:35: W::[Semantic_annotation_jieba.py:semantic_annotation_jieba:110]:语义标注主函数运行发生异常semantic_annotation_jieba'>=' not supported between instances of 'NoneType' and 'int'
+2019-01-14 11:12:35: W::[Semantic_annotation_jieba.py:semantic_annotation_jieba:111]:(<class 'TypeError'>, TypeError("'>=' not supported between instances of 'NoneType' and 'int'",), <traceback object at 0x7f5cb89c4508>)
+2019-01-14 11:13:47: I::[server.py:_run: 88]:bind all sockets
+2019-01-14 11:13:47: I::[server.py:_run: 92]:open 8 ventilator-worker sockets
+2019-01-14 11:13:47: I::[server.py:_run: 95]:start the sink
+2019-01-14 11:13:47: I::[server.py:_run:239]:ready
+2019-01-14 11:13:47: I::[server.py:_get_device_map:162]:get devices
+2019-01-14 11:13:47: I::[server.py:_get_device_map:194]:device map: 
+		worker  0 -> cpu
+		worker  1 -> cpu
+2019-01-14 11:13:47: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:13:47: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:13:47: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:13:47: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:13:52: I::[server.py:_run:122]:new config request	req id: 0	client: b'536d6100-15e5-469e-82df-9abf9b060032'
+2019-01-14 11:13:52: I::[server.py:_run:279]:send config	client b'536d6100-15e5-469e-82df-9abf9b060032'
+2019-01-14 11:13:52: I::[server.py:_run:138]:new encode request	req id: 1	size: 107	client: b'536d6100-15e5-469e-82df-9abf9b060032'
+2019-01-14 11:13:52: I::[server.py:_run:276]:job register	size: 107	job id: b'536d6100-15e5-469e-82df-9abf9b060032#1'
+2019-01-14 11:13:52: D::[__init__.py:initialize:111]:Building prefix dict from the default dictionary ...
+2019-01-14 11:13:52: D::[__init__.py:initialize:131]:Loading model from cache /tmp/jieba.cache
+2019-01-14 11:13:53: D::[__init__.py:initialize:163]:Loading model cost 1.212 seconds.
+2019-01-14 11:13:53: D::[__init__.py:initialize:164]:Prefix dict has been built succesfully.
+2019-01-14 11:13:53: W::[Semantic_annotation_jieba.py:set_sentence: 73]:设置句子属性发生异常set_sentencelist index out of range
+2019-01-14 11:13:53: W::[Semantic_annotation_jieba.py:set_sentence: 74]:(<class 'IndexError'>, IndexError('list index out of range',), <traceback object at 0x7f09f38dcc88>)
+2019-01-14 11:13:53: W::[Semantic_annotation_jieba.py:find_ap:381]:确定动作属性发生异常find_ap'NoneType' object has no attribute 'class_word_list'
+2019-01-14 11:13:53: W::[Semantic_annotation_jieba.py:find_ap:382]:(<class 'AttributeError'>, AttributeError("'NoneType' object has no attribute 'class_word_list'",), <traceback object at 0x7f09f38dcc88>)
+2019-01-14 11:13:53: W::[Semantic_annotation_jieba.py:semantic_annotation_jieba:111]:语义标注主函数运行发生异常semantic_annotation_jieba'>=' not supported between instances of 'NoneType' and 'int'
+2019-01-14 11:13:53: W::[Semantic_annotation_jieba.py:semantic_annotation_jieba:112]:(<class 'TypeError'>, TypeError("'>=' not supported between instances of 'NoneType' and 'int'",), <traceback object at 0x7f09f38dcc88>)
+2019-01-14 11:14:51: I::[server.py:_run: 88]:bind all sockets
+2019-01-14 11:14:51: I::[server.py:_run: 92]:open 8 ventilator-worker sockets
+2019-01-14 11:14:51: I::[server.py:_run: 95]:start the sink
+2019-01-14 11:14:51: I::[server.py:_run:239]:ready
+2019-01-14 11:14:51: I::[server.py:_get_device_map:162]:get devices
+2019-01-14 11:14:51: I::[server.py:_get_device_map:194]:device map: 
+		worker  0 -> cpu
+		worker  1 -> cpu
+2019-01-14 11:14:51: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:14:51: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:14:51: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:14:51: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:14:59: I::[server.py:_run:122]:new config request	req id: 0	client: b'b54a70c2-b5c3-45cb-936f-9c6653e1af20'
+2019-01-14 11:14:59: I::[server.py:_run:279]:send config	client b'b54a70c2-b5c3-45cb-936f-9c6653e1af20'
+2019-01-14 11:14:59: I::[server.py:_run:138]:new encode request	req id: 1	size: 107	client: b'b54a70c2-b5c3-45cb-936f-9c6653e1af20'
+2019-01-14 11:14:59: I::[server.py:_run:276]:job register	size: 107	job id: b'b54a70c2-b5c3-45cb-936f-9c6653e1af20#1'
+2019-01-14 11:14:59: D::[__init__.py:initialize:111]:Building prefix dict from the default dictionary ...
+2019-01-14 11:14:59: D::[__init__.py:initialize:131]:Loading model from cache /tmp/jieba.cache
+2019-01-14 11:15:00: D::[__init__.py:initialize:163]:Loading model cost 1.386 seconds.
+2019-01-14 11:15:00: D::[__init__.py:initialize:164]:Prefix dict has been built succesfully.
+2019-01-14 11:15:00: W::[Semantic_annotation_jieba.py:set_sentence: 74]:设置句子属性发生异常set_sentencelist index out of range
+2019-01-14 11:15:00: W::[Semantic_annotation_jieba.py:set_sentence: 75]:(<class 'IndexError'>, IndexError('list index out of range',), <traceback object at 0x7f54f8629408>)
+2019-01-14 11:15:00: W::[Semantic_annotation_jieba.py:find_ap:382]:确定动作属性发生异常find_ap'NoneType' object has no attribute 'class_word_list'
+2019-01-14 11:15:00: W::[Semantic_annotation_jieba.py:find_ap:383]:(<class 'AttributeError'>, AttributeError("'NoneType' object has no attribute 'class_word_list'",), <traceback object at 0x7f54f8629408>)
+2019-01-14 11:15:00: W::[Semantic_annotation_jieba.py:semantic_annotation_jieba:112]:语义标注主函数运行发生异常semantic_annotation_jieba'>=' not supported between instances of 'NoneType' and 'int'
+2019-01-14 11:15:00: W::[Semantic_annotation_jieba.py:semantic_annotation_jieba:113]:(<class 'TypeError'>, TypeError("'>=' not supported between instances of 'NoneType' and 'int'",), <traceback object at 0x7f54f8629408>)
+2019-01-14 11:16:31: I::[server.py:_run:122]:new config request	req id: 0	client: b'3d275fae-655a-408c-8f86-05c9f5b31fae'
+2019-01-14 11:16:31: I::[server.py:_run:279]:send config	client b'3d275fae-655a-408c-8f86-05c9f5b31fae'
+2019-01-14 11:16:31: I::[server.py:_run:138]:new encode request	req id: 1	size: 125	client: b'3d275fae-655a-408c-8f86-05c9f5b31fae'
+2019-01-14 11:16:31: I::[server.py:_run:276]:job register	size: 125	job id: b'3d275fae-655a-408c-8f86-05c9f5b31fae#1'
+2019-01-14 11:16:31: D::[__init__.py:initialize:111]:Building prefix dict from the default dictionary ...
+2019-01-14 11:16:31: D::[__init__.py:initialize:131]:Loading model from cache /tmp/jieba.cache
+2019-01-14 11:16:33: D::[__init__.py:initialize:163]:Loading model cost 1.414 seconds.
+2019-01-14 11:16:33: D::[__init__.py:initialize:164]:Prefix dict has been built succesfully.
+2019-01-14 11:16:33: W::[Semantic_annotation_jieba.py:set_sentence: 74]:设置句子属性发生异常set_sentencelist index out of range
+2019-01-14 11:16:33: W::[Semantic_annotation_jieba.py:set_sentence: 75]:(<class 'IndexError'>, IndexError('list index out of range',), <traceback object at 0x7f54f86291c8>)
+2019-01-14 11:16:33: W::[Semantic_annotation_jieba.py:find_ap:382]:确定动作属性发生异常find_ap'NoneType' object has no attribute 'class_word_list'
+2019-01-14 11:16:33: W::[Semantic_annotation_jieba.py:find_ap:383]:(<class 'AttributeError'>, AttributeError("'NoneType' object has no attribute 'class_word_list'",), <traceback object at 0x7f54f86291c8>)
+2019-01-14 11:16:33: W::[Semantic_annotation_jieba.py:semantic_annotation_jieba:112]:语义标注主函数运行发生异常semantic_annotation_jieba'>=' not supported between instances of 'NoneType' and 'int'
+2019-01-14 11:16:33: W::[Semantic_annotation_jieba.py:semantic_annotation_jieba:113]:(<class 'TypeError'>, TypeError("'>=' not supported between instances of 'NoneType' and 'int'",), <traceback object at 0x7f54f86291c8>)
+2019-01-14 11:17:06: I::[server.py:_run: 88]:bind all sockets
+2019-01-14 11:17:06: I::[server.py:_run: 92]:open 8 ventilator-worker sockets
+2019-01-14 11:17:06: I::[server.py:_run: 95]:start the sink
+2019-01-14 11:17:06: I::[server.py:_get_device_map:162]:get devices
+2019-01-14 11:17:06: I::[server.py:_run:239]:ready
+2019-01-14 11:17:06: I::[server.py:_get_device_map:194]:device map: 
+		worker  0 -> cpu
+		worker  1 -> cpu
+2019-01-14 11:17:06: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:17:06: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:17:06: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:17:06: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:17:16: I::[server.py:_run:122]:new config request	req id: 0	client: b'4fce0b6c-18e8-42cc-9736-13b2f6e0f091'
+2019-01-14 11:17:16: I::[server.py:_run:279]:send config	client b'4fce0b6c-18e8-42cc-9736-13b2f6e0f091'
+2019-01-14 11:17:16: I::[server.py:_run:138]:new encode request	req id: 1	size: 125	client: b'4fce0b6c-18e8-42cc-9736-13b2f6e0f091'
+2019-01-14 11:17:16: I::[server.py:_run:276]:job register	size: 125	job id: b'4fce0b6c-18e8-42cc-9736-13b2f6e0f091#1'
+2019-01-14 11:17:16: D::[__init__.py:initialize:111]:Building prefix dict from the default dictionary ...
+2019-01-14 11:17:16: D::[__init__.py:initialize:131]:Loading model from cache /tmp/jieba.cache
+2019-01-14 11:17:18: D::[__init__.py:initialize:163]:Loading model cost 1.365 seconds.
+2019-01-14 11:17:18: D::[__init__.py:initialize:164]:Prefix dict has been built succesfully.
+2019-01-14 11:17:18: W::[Semantic_annotation_jieba.py:set_sentence: 74]:设置句子属性发生异常set_sentencelist index out of range
+2019-01-14 11:17:18: W::[Semantic_annotation_jieba.py:set_sentence: 75]:(<class 'IndexError'>, IndexError('list index out of range',), <traceback object at 0x7f6ad1ce1ac8>)
+2019-01-14 11:17:18: W::[Semantic_annotation_jieba.py:find_ap:382]:确定动作属性发生异常find_ap'NoneType' object has no attribute 'class_word_list'
+2019-01-14 11:17:18: W::[Semantic_annotation_jieba.py:find_ap:383]:(<class 'AttributeError'>, AttributeError("'NoneType' object has no attribute 'class_word_list'",), <traceback object at 0x7f6ad1ce1ac8>)
+2019-01-14 11:17:18: W::[Semantic_annotation_jieba.py:semantic_annotation_jieba:112]:语义标注主函数运行发生异常semantic_annotation_jieba'>=' not supported between instances of 'NoneType' and 'int'
+2019-01-14 11:17:18: W::[Semantic_annotation_jieba.py:semantic_annotation_jieba:113]:(<class 'TypeError'>, TypeError("'>=' not supported between instances of 'NoneType' and 'int'",), <traceback object at 0x7f6ad1ce1ac8>)
+2019-01-14 11:19:09: I::[server.py:_run: 88]:bind all sockets
+2019-01-14 11:19:09: I::[server.py:_run: 92]:open 8 ventilator-worker sockets
+2019-01-14 11:19:09: I::[server.py:_run: 95]:start the sink
+2019-01-14 11:19:09: I::[server.py:_run:239]:ready
+2019-01-14 11:19:09: I::[server.py:_get_device_map:162]:get devices
+2019-01-14 11:19:09: I::[server.py:_get_device_map:194]:device map: 
+		worker  0 -> cpu
+		worker  1 -> cpu
+2019-01-14 11:19:09: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:19:09: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:19:09: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:19:09: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:19:15: I::[server.py:_run:122]:new config request	req id: 0	client: b'1168a4c1-5dcb-428f-a4ff-9505fe0a1132'
+2019-01-14 11:19:15: I::[server.py:_run:279]:send config	client b'1168a4c1-5dcb-428f-a4ff-9505fe0a1132'
+2019-01-14 11:19:15: I::[server.py:_run:138]:new encode request	req id: 1	size: 125	client: b'1168a4c1-5dcb-428f-a4ff-9505fe0a1132'
+2019-01-14 11:19:15: I::[server.py:_run:276]:job register	size: 125	job id: b'1168a4c1-5dcb-428f-a4ff-9505fe0a1132#1'
+2019-01-14 11:19:15: D::[__init__.py:initialize:111]:Building prefix dict from the default dictionary ...
+2019-01-14 11:19:15: D::[__init__.py:initialize:131]:Loading model from cache /tmp/jieba.cache
+2019-01-14 11:19:16: D::[__init__.py:initialize:163]:Loading model cost 1.405 seconds.
+2019-01-14 11:19:16: D::[__init__.py:initialize:164]:Prefix dict has been built succesfully.
+2019-01-14 11:19:16: W::[Semantic_annotation_jieba.py:set_sentence: 74]:设置句子属性发生异常set_sentencelist index out of range
+2019-01-14 11:19:16: W::[Semantic_annotation_jieba.py:set_sentence: 75]:(<class 'IndexError'>, IndexError('list index out of range',), <traceback object at 0x7fca4d53c2c8>)
+2019-01-14 11:19:16: W::[Semantic_annotation_jieba.py:find_ap:382]:确定动作属性发生异常find_ap'NoneType' object has no attribute 'class_word_list'
+2019-01-14 11:19:16: W::[Semantic_annotation_jieba.py:find_ap:383]:(<class 'AttributeError'>, AttributeError("'NoneType' object has no attribute 'class_word_list'",), <traceback object at 0x7fca4d53c2c8>)
+2019-01-14 11:19:16: W::[Semantic_annotation_jieba.py:semantic_annotation_jieba:112]:语义标注主函数运行发生异常semantic_annotation_jieba'>=' not supported between instances of 'NoneType' and 'int'
+2019-01-14 11:19:16: W::[Semantic_annotation_jieba.py:semantic_annotation_jieba:113]:(<class 'TypeError'>, TypeError("'>=' not supported between instances of 'NoneType' and 'int'",), <traceback object at 0x7fca4d53c2c8>)
+2019-01-14 11:22:48: I::[server.py:_run: 88]:bind all sockets
+2019-01-14 11:22:48: I::[server.py:_run: 92]:open 8 ventilator-worker sockets
+2019-01-14 11:22:48: I::[server.py:_run: 95]:start the sink
+2019-01-14 11:22:48: I::[server.py:_run:239]:ready
+2019-01-14 11:22:48: I::[server.py:_get_device_map:162]:get devices
+2019-01-14 11:22:48: I::[server.py:_get_device_map:194]:device map: 
+		worker  0 -> cpu
+		worker  1 -> cpu
+2019-01-14 11:22:48: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:22:48: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:22:48: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:22:48: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:22:59: I::[server.py:_run:122]:new config request	req id: 0	client: b'0f89dd32-f937-48cb-af98-8b9c0c25b929'
+2019-01-14 11:23:00: I::[server.py:_run:279]:send config	client b'0f89dd32-f937-48cb-af98-8b9c0c25b929'
+2019-01-14 11:23:00: I::[server.py:_run:138]:new encode request	req id: 1	size: 124	client: b'0f89dd32-f937-48cb-af98-8b9c0c25b929'
+2019-01-14 11:23:00: I::[server.py:_run:276]:job register	size: 124	job id: b'0f89dd32-f937-48cb-af98-8b9c0c25b929#1'
+2019-01-14 11:23:00: D::[__init__.py:initialize:111]:Building prefix dict from the default dictionary ...
+2019-01-14 11:23:00: D::[__init__.py:initialize:131]:Loading model from cache /tmp/jieba.cache
+2019-01-14 11:23:01: D::[__init__.py:initialize:163]:Loading model cost 1.421 seconds.
+2019-01-14 11:23:01: D::[__init__.py:initialize:164]:Prefix dict has been built succesfully.
+2019-01-14 11:23:01: W::[Semantic_annotation_jieba.py:set_sentence: 76]:设置句子属性发生异常set_sentencelist index out of range
+2019-01-14 11:23:01: W::[Semantic_annotation_jieba.py:set_sentence: 77]:(<class 'IndexError'>, IndexError('list index out of range',), <traceback object at 0x7f14ea16ae48>)
+2019-01-14 11:23:01: W::[Semantic_annotation_jieba.py:find_ap:384]:确定动作属性发生异常find_ap'NoneType' object has no attribute 'class_word_list'
+2019-01-14 11:23:01: W::[Semantic_annotation_jieba.py:find_ap:385]:(<class 'AttributeError'>, AttributeError("'NoneType' object has no attribute 'class_word_list'",), <traceback object at 0x7f14ea16ae48>)
+2019-01-14 11:23:01: W::[Semantic_annotation_jieba.py:semantic_annotation_jieba:114]:语义标注主函数运行发生异常semantic_annotation_jieba'>=' not supported between instances of 'NoneType' and 'int'
+2019-01-14 11:23:01: W::[Semantic_annotation_jieba.py:semantic_annotation_jieba:115]:(<class 'TypeError'>, TypeError("'>=' not supported between instances of 'NoneType' and 'int'",), <traceback object at 0x7f14ea16ae48>)
+2019-01-14 11:24:20: I::[server.py:_run: 88]:bind all sockets
+2019-01-14 11:24:20: I::[server.py:_run: 92]:open 8 ventilator-worker sockets
+2019-01-14 11:24:20: I::[server.py:_run: 95]:start the sink
+2019-01-14 11:24:20: I::[server.py:_run:239]:ready
+2019-01-14 11:24:20: I::[server.py:_get_device_map:162]:get devices
+2019-01-14 11:24:20: I::[server.py:_get_device_map:194]:device map: 
+		worker  0 -> cpu
+		worker  1 -> cpu
+2019-01-14 11:24:20: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:24:20: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:24:20: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:24:20: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:24:23: I::[server.py:_run:122]:new config request	req id: 0	client: b'3188a81a-6601-4945-a05e-e74441600838'
+2019-01-14 11:24:24: I::[server.py:_run:279]:send config	client b'3188a81a-6601-4945-a05e-e74441600838'
+2019-01-14 11:24:24: I::[server.py:_run:138]:new encode request	req id: 1	size: 124	client: b'3188a81a-6601-4945-a05e-e74441600838'
+2019-01-14 11:24:24: I::[server.py:_run:276]:job register	size: 124	job id: b'3188a81a-6601-4945-a05e-e74441600838#1'
+2019-01-14 11:24:24: D::[__init__.py:initialize:111]:Building prefix dict from the default dictionary ...
+2019-01-14 11:24:24: D::[__init__.py:initialize:131]:Loading model from cache /tmp/jieba.cache
+2019-01-14 11:24:25: D::[__init__.py:initialize:163]:Loading model cost 1.438 seconds.
+2019-01-14 11:24:25: D::[__init__.py:initialize:164]:Prefix dict has been built succesfully.
+2019-01-14 11:24:25: W::[Semantic_annotation_jieba.py:set_sentence: 78]:设置句子属性发生异常set_sentencelist index out of range
+2019-01-14 11:24:25: W::[Semantic_annotation_jieba.py:set_sentence: 79]:(<class 'IndexError'>, IndexError('list index out of range',), <traceback object at 0x7fc9b68d42c8>)
+2019-01-14 11:24:25: W::[Semantic_annotation_jieba.py:find_ap:386]:确定动作属性发生异常find_ap'NoneType' object has no attribute 'class_word_list'
+2019-01-14 11:24:25: W::[Semantic_annotation_jieba.py:find_ap:387]:(<class 'AttributeError'>, AttributeError("'NoneType' object has no attribute 'class_word_list'",), <traceback object at 0x7fc9b68d42c8>)
+2019-01-14 11:24:25: W::[Semantic_annotation_jieba.py:semantic_annotation_jieba:116]:语义标注主函数运行发生异常semantic_annotation_jieba'>=' not supported between instances of 'NoneType' and 'int'
+2019-01-14 11:24:25: W::[Semantic_annotation_jieba.py:semantic_annotation_jieba:117]:(<class 'TypeError'>, TypeError("'>=' not supported between instances of 'NoneType' and 'int'",), <traceback object at 0x7fc9b68d42c8>)
+2019-01-14 11:31:58: I::[server.py:_run: 88]:bind all sockets
+2019-01-14 11:31:58: I::[server.py:_run: 92]:open 8 ventilator-worker sockets
+2019-01-14 11:31:58: I::[server.py:_run: 95]:start the sink
+2019-01-14 11:31:58: I::[server.py:_get_device_map:162]:get devices
+2019-01-14 11:31:58: I::[server.py:_get_device_map:194]:device map: 
+		worker  0 -> cpu
+		worker  1 -> cpu
+2019-01-14 11:31:58: I::[server.py:_run:239]:ready
+2019-01-14 11:31:58: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:31:58: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:31:58: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:31:58: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:32:03: I::[server.py:_run: 88]:bind all sockets
+2019-01-14 11:32:31: I::[server.py:_run: 88]:bind all sockets
+2019-01-14 11:32:31: I::[server.py:_run: 92]:open 8 ventilator-worker sockets
+2019-01-14 11:32:31: I::[server.py:_run: 95]:start the sink
+2019-01-14 11:32:31: I::[server.py:_get_device_map:162]:get devices
+2019-01-14 11:32:31: I::[server.py:_run:239]:ready
+2019-01-14 11:32:31: I::[server.py:_get_device_map:194]:device map: 
+		worker  0 -> cpu
+		worker  1 -> cpu
+2019-01-14 11:32:31: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:32:31: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:32:31: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:32:31: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:32:35: I::[server.py:_run:122]:new config request	req id: 0	client: b'baacc713-a1cd-4216-9deb-f92137e6a9e3'
+2019-01-14 11:32:36: I::[server.py:_run:279]:send config	client b'baacc713-a1cd-4216-9deb-f92137e6a9e3'
+2019-01-14 11:32:36: I::[server.py:_run:138]:new encode request	req id: 1	size: 124	client: b'baacc713-a1cd-4216-9deb-f92137e6a9e3'
+2019-01-14 11:32:36: I::[server.py:_run:276]:job register	size: 124	job id: b'baacc713-a1cd-4216-9deb-f92137e6a9e3#1'
+2019-01-14 11:32:36: D::[__init__.py:initialize:111]:Building prefix dict from the default dictionary ...
+2019-01-14 11:32:36: D::[__init__.py:initialize:131]:Loading model from cache /tmp/jieba.cache
+2019-01-14 11:32:37: D::[__init__.py:initialize:163]:Loading model cost 1.218 seconds.
+2019-01-14 11:32:37: D::[__init__.py:initialize:164]:Prefix dict has been built succesfully.
+2019-01-14 11:32:37: W::[Semantic_annotation_jieba.py:set_sentence: 81]:设置句子属性发生异常set_sentencelist index out of range
+2019-01-14 11:32:37: W::[Semantic_annotation_jieba.py:set_sentence: 82]:(<class 'IndexError'>, IndexError('list index out of range',), <traceback object at 0x7f0640346348>)
+2019-01-14 11:32:37: W::[Semantic_annotation_jieba.py:find_ap:389]:确定动作属性发生异常find_ap'NoneType' object has no attribute 'class_word_list'
+2019-01-14 11:32:37: W::[Semantic_annotation_jieba.py:find_ap:390]:(<class 'AttributeError'>, AttributeError("'NoneType' object has no attribute 'class_word_list'",), <traceback object at 0x7f0640346348>)
+2019-01-14 11:32:37: W::[Semantic_annotation_jieba.py:semantic_annotation_jieba:119]:语义标注主函数运行发生异常semantic_annotation_jieba'>=' not supported between instances of 'NoneType' and 'int'
+2019-01-14 11:32:37: W::[Semantic_annotation_jieba.py:semantic_annotation_jieba:120]:(<class 'TypeError'>, TypeError("'>=' not supported between instances of 'NoneType' and 'int'",), <traceback object at 0x7f0640346348>)
+2019-01-14 11:34:08: I::[server.py:_run: 88]:bind all sockets
+2019-01-14 11:34:08: I::[server.py:_run: 92]:open 8 ventilator-worker sockets
+2019-01-14 11:34:08: I::[server.py:_run: 95]:start the sink
+2019-01-14 11:34:08: I::[server.py:_run:239]:ready
+2019-01-14 11:34:08: I::[server.py:_get_device_map:162]:get devices
+2019-01-14 11:34:08: I::[server.py:_get_device_map:194]:device map: 
+		worker  0 -> cpu
+		worker  1 -> cpu
+2019-01-14 11:34:08: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:34:08: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:34:08: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:34:08: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:34:15: I::[server.py:_run:122]:new config request	req id: 0	client: b'ccc12e63-5971-40f7-8c05-521f4501b6e9'
+2019-01-14 11:34:15: I::[server.py:_run:279]:send config	client b'ccc12e63-5971-40f7-8c05-521f4501b6e9'
+2019-01-14 11:34:15: I::[server.py:_run:138]:new encode request	req id: 1	size: 124	client: b'ccc12e63-5971-40f7-8c05-521f4501b6e9'
+2019-01-14 11:34:15: I::[server.py:_run:276]:job register	size: 124	job id: b'ccc12e63-5971-40f7-8c05-521f4501b6e9#1'
+2019-01-14 11:34:15: D::[__init__.py:initialize:111]:Building prefix dict from the default dictionary ...
+2019-01-14 11:34:15: D::[__init__.py:initialize:131]:Loading model from cache /tmp/jieba.cache
+2019-01-14 11:34:16: D::[__init__.py:initialize:163]:Loading model cost 1.220 seconds.
+2019-01-14 11:34:16: D::[__init__.py:initialize:164]:Prefix dict has been built succesfully.
+2019-01-14 11:34:16: W::[Semantic_annotation_jieba.py:set_sentence: 81]:设置句子属性发生异常set_sentencelist index out of range
+2019-01-14 11:34:16: W::[Semantic_annotation_jieba.py:set_sentence: 82]:(<class 'IndexError'>, IndexError('list index out of range',), <traceback object at 0x7fbc378a5588>)
+2019-01-14 11:34:16: W::[Semantic_annotation_jieba.py:find_ap:389]:确定动作属性发生异常find_ap'NoneType' object has no attribute 'class_word_list'
+2019-01-14 11:34:16: W::[Semantic_annotation_jieba.py:find_ap:390]:(<class 'AttributeError'>, AttributeError("'NoneType' object has no attribute 'class_word_list'",), <traceback object at 0x7fbc378a5588>)
+2019-01-14 11:34:16: W::[Semantic_annotation_jieba.py:semantic_annotation_jieba:119]:语义标注主函数运行发生异常semantic_annotation_jieba'>=' not supported between instances of 'NoneType' and 'int'
+2019-01-14 11:34:16: W::[Semantic_annotation_jieba.py:semantic_annotation_jieba:120]:(<class 'TypeError'>, TypeError("'>=' not supported between instances of 'NoneType' and 'int'",), <traceback object at 0x7fbc378a5588>)
+2019-01-14 11:35:08: I::[server.py:_run: 88]:bind all sockets
+2019-01-14 11:35:08: I::[server.py:_run: 92]:open 8 ventilator-worker sockets
+2019-01-14 11:35:08: I::[server.py:_run: 95]:start the sink
+2019-01-14 11:35:08: I::[server.py:_run:239]:ready
+2019-01-14 11:35:08: I::[server.py:_get_device_map:162]:get devices
+2019-01-14 11:35:08: I::[server.py:_get_device_map:194]:device map: 
+		worker  0 -> cpu
+		worker  1 -> cpu
+2019-01-14 11:35:08: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:35:08: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:35:08: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:35:08: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:35:13: I::[server.py:_run:122]:new config request	req id: 0	client: b'99eb7293-7418-4da7-b95d-2a570e5737a1'
+2019-01-14 11:35:13: I::[server.py:_run:279]:send config	client b'99eb7293-7418-4da7-b95d-2a570e5737a1'
+2019-01-14 11:35:13: I::[server.py:_run:138]:new encode request	req id: 1	size: 124	client: b'99eb7293-7418-4da7-b95d-2a570e5737a1'
+2019-01-14 11:35:13: I::[server.py:_run:276]:job register	size: 124	job id: b'99eb7293-7418-4da7-b95d-2a570e5737a1#1'
+2019-01-14 11:35:14: D::[__init__.py:initialize:111]:Building prefix dict from the default dictionary ...
+2019-01-14 11:35:14: D::[__init__.py:initialize:131]:Loading model from cache /tmp/jieba.cache
+2019-01-14 11:35:17: D::[__init__.py:initialize:163]:Loading model cost 2.136 seconds.
+2019-01-14 11:35:17: D::[__init__.py:initialize:164]:Prefix dict has been built succesfully.
+2019-01-14 11:35:17: I::[server.py:_run:358]:job done	size: 124	client: b'99eb7293-7418-4da7-b95d-2a570e5737a1#1'
+2019-01-14 11:38:38: I::[server.py:_run: 88]:bind all sockets
+2019-01-14 11:38:38: I::[server.py:_run: 92]:open 8 ventilator-worker sockets
+2019-01-14 11:38:38: I::[server.py:_run: 95]:start the sink
+2019-01-14 11:38:38: I::[server.py:_run:239]:ready
+2019-01-14 11:38:38: I::[server.py:_get_device_map:162]:get devices
+2019-01-14 11:38:38: I::[server.py:_get_device_map:194]:device map: 
+		worker  0 -> cpu
+		worker  1 -> cpu
+2019-01-14 11:38:38: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:38:38: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:38:38: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:38:38: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:38:44: I::[server.py:_run:122]:new config request	req id: 0	client: b'ed073ffd-b77d-44a7-aee0-67614ee33873'
+2019-01-14 11:38:44: I::[server.py:_run:279]:send config	client b'ed073ffd-b77d-44a7-aee0-67614ee33873'
+2019-01-14 11:38:44: I::[server.py:_run:138]:new encode request	req id: 1	size: 124	client: b'ed073ffd-b77d-44a7-aee0-67614ee33873'
+2019-01-14 11:38:44: I::[server.py:_run:276]:job register	size: 124	job id: b'ed073ffd-b77d-44a7-aee0-67614ee33873#1'
+2019-01-14 11:38:55: D::[__init__.py:initialize:111]:Building prefix dict from the default dictionary ...
+2019-01-14 11:38:55: D::[__init__.py:initialize:131]:Loading model from cache /tmp/jieba.cache
+2019-01-14 11:38:56: D::[__init__.py:initialize:163]:Loading model cost 1.311 seconds.
+2019-01-14 11:38:56: D::[__init__.py:initialize:164]:Prefix dict has been built succesfully.
+2019-01-14 11:39:34: I::[server.py:_run: 88]:bind all sockets
+2019-01-14 11:39:34: I::[server.py:_run: 92]:open 8 ventilator-worker sockets
+2019-01-14 11:39:34: I::[server.py:_run: 95]:start the sink
+2019-01-14 11:39:34: I::[server.py:_run:239]:ready
+2019-01-14 11:39:34: I::[server.py:_get_device_map:162]:get devices
+2019-01-14 11:39:34: I::[server.py:_get_device_map:194]:device map: 
+		worker  0 -> cpu
+		worker  1 -> cpu
+2019-01-14 11:39:34: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:39:34: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:39:34: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:39:34: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:39:38: I::[server.py:_run:122]:new config request	req id: 0	client: b'd3a482cc-c246-4a3f-b9d4-399f1cf6b1fe'
+2019-01-14 11:39:38: I::[server.py:_run:279]:send config	client b'd3a482cc-c246-4a3f-b9d4-399f1cf6b1fe'
+2019-01-14 11:39:38: I::[server.py:_run:138]:new encode request	req id: 1	size: 124	client: b'd3a482cc-c246-4a3f-b9d4-399f1cf6b1fe'
+2019-01-14 11:39:38: I::[server.py:_run:276]:job register	size: 124	job id: b'd3a482cc-c246-4a3f-b9d4-399f1cf6b1fe#1'
+2019-01-14 11:39:39: D::[__init__.py:initialize:111]:Building prefix dict from the default dictionary ...
+2019-01-14 11:39:39: D::[__init__.py:initialize:131]:Loading model from cache /tmp/jieba.cache
+2019-01-14 11:39:40: D::[__init__.py:initialize:163]:Loading model cost 1.414 seconds.
+2019-01-14 11:39:40: D::[__init__.py:initialize:164]:Prefix dict has been built succesfully.
+2019-01-14 11:39:40: I::[server.py:_run:361]:job done	size: 124	client: b'd3a482cc-c246-4a3f-b9d4-399f1cf6b1fe#1'
+2019-01-14 11:39:40: I::[server.py:_run:257]:collect job b'd3a482cc-c246-4a3f-b9d4-399f1cf6b1fe#1' (124/124)
+2019-01-14 11:39:40: I::[server.py:_run:262]:send back	size: 124	job id:b'd3a482cc-c246-4a3f-b9d4-399f1cf6b1fe#1'	
+2019-01-14 11:42:11: I::[server.py:_run: 88]:bind all sockets
+2019-01-14 11:42:11: I::[server.py:_run: 92]:open 8 ventilator-worker sockets
+2019-01-14 11:42:11: I::[server.py:_run: 95]:start the sink
+2019-01-14 11:42:11: I::[server.py:_get_device_map:162]:get devices
+2019-01-14 11:42:11: I::[server.py:_run:239]:ready
+2019-01-14 11:42:11: I::[server.py:_get_device_map:194]:device map: 
+		worker  0 -> cpu
+		worker  1 -> cpu
+2019-01-14 11:42:11: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:42:11: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:42:11: I::[server.py:_run:314]:use device cpu
+2019-01-14 11:42:11: I::[server.py:_run:323]:ready and listening!
+2019-01-14 11:42:17: I::[server.py:_run:122]:new config request	req id: 0	client: b'aeef9f8d-5a53-4e4f-a1a7-22cd6b7e9fc7'
+2019-01-14 11:42:17: I::[server.py:_run:279]:send config	client b'aeef9f8d-5a53-4e4f-a1a7-22cd6b7e9fc7'
+2019-01-14 11:42:17: I::[server.py:_run:138]:new encode request	req id: 1	size: 124	client: b'aeef9f8d-5a53-4e4f-a1a7-22cd6b7e9fc7'
+2019-01-14 11:42:17: I::[server.py:_run:276]:job register	size: 124	job id: b'aeef9f8d-5a53-4e4f-a1a7-22cd6b7e9fc7#1'
+2019-01-14 11:42:17: D::[__init__.py:initialize:111]:Building prefix dict from the default dictionary ...
+2019-01-14 11:42:17: D::[__init__.py:initialize:131]:Loading model from cache /tmp/jieba.cache
+2019-01-14 11:42:19: D::[__init__.py:initialize:163]:Loading model cost 1.457 seconds.
+2019-01-14 11:42:19: D::[__init__.py:initialize:164]:Prefix dict has been built succesfully.
+2019-01-14 11:42:19: I::[server.py:_run:361]:job done	size: 124	client: b'aeef9f8d-5a53-4e4f-a1a7-22cd6b7e9fc7#1'
+2019-01-14 11:42:19: I::[server.py:_run:257]:collect job b'aeef9f8d-5a53-4e4f-a1a7-22cd6b7e9fc7#1' (124/124)
+2019-01-14 11:42:19: I::[server.py:_run:262]:send back	size: 124	job id:b'aeef9f8d-5a53-4e4f-a1a7-22cd6b7e9fc7#1'	
+2019-01-14 11:43:46: I::[server.py:_run:122]:new config request	req id: 0	client: b'1e6021f0-b7b9-4997-8cf1-8b91eae84f93'
+2019-01-14 11:43:46: I::[server.py:_run:279]:send config	client b'1e6021f0-b7b9-4997-8cf1-8b91eae84f93'
+2019-01-14 11:43:46: I::[server.py:_run:138]:new encode request	req id: 1	size: 124	client: b'1e6021f0-b7b9-4997-8cf1-8b91eae84f93'
+2019-01-14 11:43:46: I::[server.py:_run:276]:job register	size: 124	job id: b'1e6021f0-b7b9-4997-8cf1-8b91eae84f93#1'
+2019-01-14 11:43:57: I::[server.py:_run:361]:job done	size: 124	client: b'1e6021f0-b7b9-4997-8cf1-8b91eae84f93#1'
+2019-01-14 11:43:57: I::[server.py:_run:257]:collect job b'1e6021f0-b7b9-4997-8cf1-8b91eae84f93#1' (124/124)
+2019-01-14 11:43:57: I::[server.py:_run:262]:send back	size: 124	job id:b'1e6021f0-b7b9-4997-8cf1-8b91eae84f93#1'	

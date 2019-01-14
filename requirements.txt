@@ -1,0 +1,6 @@
+flask
+gunicorn
+gevent
+jieba
+pyltp
+termcolor
