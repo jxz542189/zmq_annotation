@@ -339,23 +339,15 @@ class BertWorker(Process):
                             break
                     lines = msg[:i+1]
                     sa = semantic_annotation_jieba(dic)
-                    print("==============dic=================")
-                    print(dic)
                     res = []
-                    r = {}
                     for line in lines:
-                        print(line)
                         r = sa.semantic_annotation_jieba(line)
-                        print("====================")
-                        print(r)
                         r['origin_sentence'] = line
                         tmp_res = []
                         for key in r.keys():
-                            tmp_res.append(key + '=>' + r[key])
+                            tmp_res.append(key + '==>' + r[key])
                         res.append("++".join(tmp_res))
                     lines = res + [''] * (msg_len - len(lines))
-                    # for line in msg:
-                    #     sa.semantic_annotation_jieba
                     msg = np.array(lines)
                     send_ndarray(sink, client_id, msg)
                     logger.info('job done\tsize: %s\tclient: %s' % (len(msg), client_id))

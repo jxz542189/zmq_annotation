@@ -8,9 +8,7 @@ from pyltp import Parser
 
 import config
 from Sentence import sentence_class
-from Word import word_class
 import traceback
-# from my_log_new import Logger
 from log import logger
 
 
@@ -22,8 +20,6 @@ class semantic_annotation_jieba:
     def __init__(self, dic):
         cws_model_path = os.path.join(config.LTP_DATA_DIR, 'cws.model')
         self.segmentor = Segmentor()
-        print("==============cws_model_path============")
-        print(cws_model_path)
         self.segmentor.load(cws_model_path)
 
         self.segmentor.load_with_lexicon(cws_model_path, config.dic_path)
@@ -49,19 +45,11 @@ class semantic_annotation_jieba:
     def set_sentence(self, sentence):
         try:
             result = jieba.posseg.cut(sentence)
-            print("============set_sentence=============")
-            print(sentence)
-            print(result)
             words_list = []
-            postags_list = []
             for w in result:
                 words_list.append(w.word)
-            print("============words_list============")
-            print(words_list)
             postags = self.postagger.postag(words_list)
             postags_list = list(postags)
-            print("===========postags_list============")
-            print(postags_list)
             for i in range(len(postags_list)):
                 if words_list[i] in self.dic.keys():
                     postags_list[i] = self.dic[words_list[i]]
@@ -72,8 +60,6 @@ class semantic_annotation_jieba:
                 s = s + str(a.head) + ":" + a.relation + '  '
 
             sen = sentence_class(words_list, postags_list, arcs_list)
-            print("================set_sentence over=======================")
-
             return sen
         except Exception as e:
             s = "设置句子属性发生异常set_sentence" + str(e)
@@ -84,8 +70,6 @@ class semantic_annotation_jieba:
     def semantic_annotation_jieba(self, sentence):
         try:
             sen = self.set_sentence(sentence)
-            print("=========sen========")
-            print(sen)
             dic_r = {}
             ap_ID = self.find_ap(sen)
             if ap_ID >= 0:

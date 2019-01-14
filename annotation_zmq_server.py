@@ -6,6 +6,7 @@ from flask import Flask, request, jsonify
 import traceback
 import json
 import argparse
+from zmq_client_new.client import BertClient
 
 
 app = Flask(__name__)
@@ -26,47 +27,51 @@ def mask_question():
             logger.warning("must input data, mask_question field must be in json_data")
             return jsonify({'state': 'mask_question field must be in json_data'})
 
-        try:
-            lines = json_data['mask_question']
-            if len(lines) == 0:
-                return jsonify({'input data must be non-empty!!!'})
-            if type(lines) == 'str':
-                lines = list(lines)
-            elif type(lines) == list:
-                lines = lines
-            else:
-                return jsonify({"format iscorrect": "mask_question field must be str or list"})
 
-            if 'dic' not in json_data:
-                dic = {}
-            else:
-                dic_old = json_data['dic']
-                dic = {}
-                for key in dic_old.keys():
-                    value = dic_old[key]
-                    if value == '':
-                        continue
-                    else:
-                        dic[key] = value
-            sa = semantic_annotation_jieba(dic)
-        except Exception:
-            logger.warning("init pos parser error: ".format(traceback.format_exc()))
-            return jsonify({'trace': traceback.format_exc()})
+        lines = json_data['mask_question']
+        if len(lines) == 0:
+            return jsonify({'input data must be non-empty!!!'})
+        if type(lines) == 'str':
+            lines = list(lines)
+        elif type(lines) == list:
+            lines = lines
+        else:
+            return jsonify({"format iscorrect": "mask_question field must be str or list"})
+
+        if 'dic' not in json_data:
+            dic = {}
+        else:
+            dic_old = json_data['dic']
+            dic = {}
+            for key in dic_old.keys():
+                value = dic_old[key]
+                if value == '':
+                    continue
+                else:
+                    dic[key] = value
+
+        client = BertClient()
+        res = []
         try:
             lines = [re.sub('\n', '', line) for line in lines]
             lines = [line for line in lines if len(line)]
-            res = []
-            for line in lines:
-                r = sa.semantic_annotation_jieba(line)
-                r['origin_sentence'] = line
-                res.append(r)
+            lines_len = len(lines)
+            for key in dic.keys():
+                lines.append(key + '____' + str(dic[key]))
+            tmp_res =client.encode(lines)[:lines_len]
+
+            for tmp in tmp_res:
+                tmp_dic = {}
+                tagger_and_words = tmp.split('++')
+                for tagger_and_word in tagger_and_words:
+                    tagger, word = tagger_and_word.split('==>')
+                    if word == '__':
+                        word = ''
+                    tmp_dic[tagger] = word
+                res.append(tmp_dic)
+            # print(client.encode(lines)[:lines_len])
         except Exception:
             logger.warning("annotation error: ".format(traceback.format_exc()))
-            return jsonify({'trace': traceback.format_exc()})
-        try:
-            sa.Model_release()
-        except Exception:
-            logger.warning("language model release error: ".format(traceback.format_exc()))
             return jsonify({'trace': traceback.format_exc()})
         return jsonify({'state ': 'success',
                         'res ': res})

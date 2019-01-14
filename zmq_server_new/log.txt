@@ -457,3 +457,26 @@
 2019-01-14 11:43:57: I::[server.py:_run:361]:job done	size: 124	client: b'1e6021f0-b7b9-4997-8cf1-8b91eae84f93#1'
 2019-01-14 11:43:57: I::[server.py:_run:257]:collect job b'1e6021f0-b7b9-4997-8cf1-8b91eae84f93#1' (124/124)
 2019-01-14 11:43:57: I::[server.py:_run:262]:send back	size: 124	job id:b'1e6021f0-b7b9-4997-8cf1-8b91eae84f93#1'	
+2019-01-14 13:29:34: I::[server.py:_run: 88]:bind all sockets
+2019-01-14 13:29:34: I::[server.py:_run: 92]:open 8 ventilator-worker sockets
+2019-01-14 13:29:34: I::[server.py:_run: 95]:start the sink
+2019-01-14 13:29:34: I::[server.py:_run:239]:ready
+2019-01-14 13:29:34: I::[server.py:_get_device_map:162]:get devices
+2019-01-14 13:29:34: I::[server.py:_get_device_map:194]:device map: 
+		worker  0 -> cpu
+		worker  1 -> cpu
+2019-01-14 13:29:34: I::[server.py:_run:314]:use device cpu
+2019-01-14 13:29:34: I::[server.py:_run:314]:use device cpu
+2019-01-14 13:29:34: I::[server.py:_run:323]:ready and listening!
+2019-01-14 13:29:34: I::[server.py:_run:323]:ready and listening!
+2019-01-14 13:31:11: I::[server.py:_run:122]:new config request	req id: 0	client: b'718cb7f1-86e5-4be0-a3a3-83bca3b78dc5'
+2019-01-14 13:31:11: I::[server.py:_run:279]:send config	client b'718cb7f1-86e5-4be0-a3a3-83bca3b78dc5'
+2019-01-14 13:31:11: I::[server.py:_run:138]:new encode request	req id: 1	size: 2	client: b'718cb7f1-86e5-4be0-a3a3-83bca3b78dc5'
+2019-01-14 13:31:11: I::[server.py:_run:276]:job register	size: 2	job id: b'718cb7f1-86e5-4be0-a3a3-83bca3b78dc5#1'
+2019-01-14 13:31:18: D::[__init__.py:initialize:111]:Building prefix dict from the default dictionary ...
+2019-01-14 13:31:18: D::[__init__.py:initialize:131]:Loading model from cache /tmp/jieba.cache
+2019-01-14 13:31:20: D::[__init__.py:initialize:163]:Loading model cost 1.559 seconds.
+2019-01-14 13:31:20: D::[__init__.py:initialize:164]:Prefix dict has been built succesfully.
+2019-01-14 13:31:20: I::[server.py:_run:353]:job done	size: 2	client: b'718cb7f1-86e5-4be0-a3a3-83bca3b78dc5#1'
+2019-01-14 13:31:20: I::[server.py:_run:257]:collect job b'718cb7f1-86e5-4be0-a3a3-83bca3b78dc5#1' (2/2)
+2019-01-14 13:31:20: I::[server.py:_run:262]:send back	size: 2	job id:b'718cb7f1-86e5-4be0-a3a3-83bca3b78dc5#1'	
